@@ -2913,7 +2913,6 @@ on("sheet:opened change:sheetsettings", function(eventInfo) {
 				updates[ability] = 0;
 				updates[`${ability}_max`] = values[`${ability}_default`];
 			});
-			console.log(updates);
 
 			updates.sanity_marker = updates.sanity_free;
 			updates.firstopen = 1;
